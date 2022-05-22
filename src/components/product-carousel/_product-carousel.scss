@@ -1,0 +1,104 @@
+.productcarousel {
+  padding: 50px;
+  background-image: url("resources/images/background01.png");
+  background-size: cover;
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    border-radius: 0px;
+  }
+
+  .productcarousel__title {
+
+    text-align: left;
+    font: normal normal normal 48px/56px $font-family-title;
+    letter-spacing: 0px;
+    color: #58181D;
+    opacity: 1;
+    margin-bottom: 30px;
+  }
+
+  .productcarousel__cardscontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+  }
+  .product__card__image {
+    max-height: 232px;
+    object-fit: contain;
+    margin-bottom: 30px;
+    text-align: center;
+
+    img {
+      max-height: 232px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .product__card {
+    @media (max-width: 768px) {
+      box-shadow: none;
+      width: 100%;
+    } 
+    width: 380px;
+    height: 410px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0000001A;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 24px/28px Baskerville;
+    letter-spacing: 0px;
+    color: #58181D;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    a {
+      text-decoration: none;
+      color: #58181D;
+      margin: 20px;
+
+      .price {
+        text-align: left;
+        font-family: $font-family;
+        font-size: 21px;
+        font: normal normal medium 21px/56px Roboto;
+        letter-spacing: 0px;
+        color: #58181D;
+        opacity: 1;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .price:after {
+        content: 'Shop Now';
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 0.8em;
+        margin-top: -10px;
+        padding: 0.5625em 1em 0.6875em 1em;
+        color: $color-text-inverted;
+        text-decoration: none;
+        border-radius: 1.56em;
+        background-color: $color-accent;
+        border-width: 0;
+
+      }
+
+    }
+
+
+  }
+}

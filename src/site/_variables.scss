@@ -1,0 +1,30 @@
+
+//== Font
+
+$font-family: roboto, Helvetica, Arial, sans-serif;
+$font-family-title: Baskerville, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size: 16px;
+$font-height: 20px;
+
+//== Color
+
+$color-background: #ffffff;
+$color-foreground: #000000;
+$color-link: #DC6E52;
+$color-accent: #27647D;
+$color-accent-lighter: #27647D;
+$color-accent-darker: #58181D;
+$color-shade-1: #eceff1;
+$color-shade-2: #cfd8dc;
+$color-shade-3: #607d8b;
+$color-shade-4: #455a64;
+
+$error: #d7373f;
+$error-darker: #be1e26;
+$success: #268e6c;
+$success-darker: #0d7553;
+
+$color-text: $color-foreground;
+$color-text-inverted: $color-background;
+$color-shadow: rgba(0, 0, 0, 0.16);
+$color-transparent: rgba(0, 0, 0, 0);
